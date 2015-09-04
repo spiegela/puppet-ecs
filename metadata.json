@@ -1,0 +1,17 @@
+{
+  "name": "spiegela-ecs",
+  "version": "0.1.0",
+  "author": "Aaron Spiegel",
+  "summary": "EMC ECS Object Store Container",
+  "license": "Apache-2.0",
+  "source": "http://github.com/spiegela/puppet_ecs",
+  "project_page": "https://github.com/spiegela/puppet_ecs",
+  "issues_url": "https://github.com/spiegela/puppet_ecs/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"garethr-docker"},
+    {"name":"basti1302-wait_for"},
+    {"name":"hajee-partition"}
+  ]
+}
+
